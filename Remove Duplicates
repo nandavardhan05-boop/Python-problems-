@@ -1,0 +1,9 @@
+a = list(map(int, input().split()))
+
+result = []
+
+for x in a:
+    if x not in result:
+        result.append(x)
+
+print(result)
